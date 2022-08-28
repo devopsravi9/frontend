@@ -1,4 +1,4 @@
 appName: frontend
-Service:
+service:
   port: 80
   type: NodePort
