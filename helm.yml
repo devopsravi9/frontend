@@ -7,3 +7,5 @@ ingress:
   scheme: internet-facing
 configMap:
   enabled: "false"
+externalSecret:
+  enabled: "false"
