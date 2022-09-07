@@ -23,7 +23,7 @@ resources:
     memory: "900Mi"
     cpu: "800m"
 health:
-  endpoint: /health
+  endpoint: /nginx_status
   port: 8080
   readiness:
     initialDelaySeconds: 10
